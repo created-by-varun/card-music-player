@@ -5,4 +5,4 @@ Live link: https://created-by-varun.github.io/card-music-player/
 
 #### Preview:
 
-!()[preview.gif]
+![](preview.gif)
