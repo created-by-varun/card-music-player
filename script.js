@@ -1,6 +1,30 @@
 const body = document.querySelector("body");
 const album = document.querySelector(".album");
 let loaded = false;
+const albumDetails = {
+  dark: {
+    album: "Grouper - Grid of Points",
+    song: "The Races",
+    art:
+    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/36124/grouper-grid-of-points.jpg",
+    position: "01 of 07",
+    start: "0:27",
+    end: "0:50",
+    highlight: "#fdfdfd",
+    accent: "#f70040",
+    background: "#1d1d1d" },
+
+  light: {
+    album: "Frontierer - Orange Mathematics",
+    song: "The Collapse",
+    art:
+    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/36124/frontierer-orange-mathematics.jpg",
+    accent: "#f78900",
+    highlight: "#1d1d1d",
+    background: "#fdfdfd",
+    position: "03 of 16",
+    start: "1:00",
+    end: "2:08" } };
 
 
 album.classList.add("album--loaded");
